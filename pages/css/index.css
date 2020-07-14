@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color:  #EDFDED;
+}
+
+.navbar {
+  background: transparent;
+  border-bottom: 3px solid green;
+  padding: 10px 10px 10px 10px;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(57, 175, 57);
+}
+.collapse{
+    float: right;
+}
+.nav-link{
+    float: right;
+    text-align: right;
+    color:rgb(57, 175, 57) ;
+
+}
+.nav-link:active{
+    color: darkgreen;
+    border-top: 2px solid darkgreen;
+}
+
+.nav-link:hover{
+    color: tomato;
+    border-top: 3px solid tomato;
+}
+.navbar-brand:hover{
+   color: tomato;
+    border-top: 3px solid tomato ;
+}
+.x-text{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 90px;
+    color: rgb(57, 175, 57);
+    display: inline;
+    text-align: center;
+
+}
+.p-text{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.obj-block{
+display: inline;
+}
+.content{
+
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 15px;
+}
+.items{
+    background-color: rgb(57, 175, 57);
+}
+.contents{
+    padding: 15px 15px 15px 15px;
+
+}
+.card{
+   
+    margin:10px 10px 10px 10px;
+    position: relative;
+    left: 25px;
+
+    
+}
+.info-img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: rgb(57, 175, 57);
+
+
+}
+.form-control{
+    height: auto;
+    border: 3px solid rgb(57, 175, 57);
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control:hover{
+    border: 3px solid tomato;
+    color: rgb(57, 175, 57);
+}
+.fab{
+    color:white;
+}
+.text-uppercase{
+    color: rgb(57, 175, 57);
+}
+a{
+    color: rgb(57, 175, 57);
+}
+a:hover{
+    color: tomato;
+    text-decoration: none;
+}
+.address{
+    text-align: left;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(57, 175, 57);
+  }
+  
+  .card:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .page-item{
+    color: rgb(57, 175, 57)
+}
+  a.add-to-cart{
+    color: tomato;
+  }
+  .navbar-toggler{
+  margin-top: 0.5em;
+  color:rgb(57, 175, 57);
+  }
+  nav ul.pagination{
+      margin-left: 2.5em;
+  }
+.card {
+    width: 15em;
+}
